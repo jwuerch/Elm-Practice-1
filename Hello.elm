@@ -1,10 +1,7 @@
 module Hello exposing (..)
 
 import Html exposing (..)
-import Html.Attributes exposing (..)
+import Element exposing (..)
 
 main =
-    view
-
-view =
-    h1 [] [ text "Dank Memes!"]
+    toHtml <| show 42
