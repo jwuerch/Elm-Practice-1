@@ -1,11 +1,9 @@
-var _user$project$Practice$isDivisible = function (n) {
-	return _elm_lang$core$Native_Utils.eq(
-		A2(_elm_lang$core$Basics_ops['%'], n, 2),
-		0);
-};
+var _user$project$Practice$add = F2(
+	function (x, y) {
+		return x + y;
+	});
 var _user$project$Practice$main = {
 	main: _evancz$elm_graphics$Element$toHtml(
 		_evancz$elm_graphics$Element$show(
-			_user$project$Practice$isDivisible(3)))
+			A2(_user$project$Practice$add, 3, 2)))
 };
-var _user$project$Practice$size = 3;
