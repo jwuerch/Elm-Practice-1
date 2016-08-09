@@ -1,0 +1,3 @@
+var _user$project$MoreOnFunctions$view = _evancz$elm_graphics$Element$toHtml(
+	_evancz$elm_graphics$Element$show('Hello'));
+var _user$project$MoreOnFunctions$main = {main: _user$project$MoreOnFunctions$view};
