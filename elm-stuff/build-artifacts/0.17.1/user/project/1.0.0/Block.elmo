@@ -8,6 +8,13 @@ var _user$project$Block$Block = function (a) {
 };
 var _user$project$Block$main = {
 	main: _evancz$elm_graphics$Element$toHtml(
-		_evancz$elm_graphics$Element$show(
-			_user$project$Block$Block(_elm_lang$core$Color$blue)))
+		A3(
+			_evancz$elm_graphics$Collage$collage,
+			400,
+			400,
+			_elm_lang$core$Native_List.fromArray(
+				[
+					_user$project$Block$toForm(
+					_user$project$Block$Block(_elm_lang$core$Color$blue))
+				])))
 };
