@@ -17,4 +17,4 @@ toForm block =
     in filled block.color shape
 
 main =
-    toHtml <| collage 400 400 [toForm (Block Color.blue)]
+    toHtml <| collage 200 200 [toForm (Block Color.blue)]

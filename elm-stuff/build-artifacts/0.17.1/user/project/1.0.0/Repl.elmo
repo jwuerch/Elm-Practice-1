@@ -1,0 +1,22 @@
+var _user$project$Repl$t_s_o_l = {ctor: '_Tuple0'};
+var _user$project$Repl$isTwo = function (n) {
+	return _elm_lang$core$Native_Utils.eq(n / 2, 0);
+};
+var _user$project$Repl$isPositive = function (n) {
+	return _elm_lang$core$Native_Utils.cmp(n, 0) > 0;
+};
+var _user$project$Repl$isNegative = function (n) {
+	return _elm_lang$core$Native_Utils.cmp(n, 0) < 0;
+};
+var _user$project$Repl$isDivis = function (n) {
+	return _elm_lang$core$Native_Utils.eq(
+		A2(_elm_lang$core$Basics_ops['%'], n, 2),
+		0);
+};
+var _user$project$Repl$isDivi = function (n) {
+	return _elm_lang$core$Native_Utils.eq(n / 2, 0);
+};
+var _user$project$Repl$isDiv = function (n) {
+	return n / 2;
+};
+var _user$project$Repl$d_e_l_t_r_o_n_3_0_3_0 = _user$project$Repl$isDivis(4);

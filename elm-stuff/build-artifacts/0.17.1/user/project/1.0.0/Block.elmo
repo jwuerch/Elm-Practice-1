@@ -10,8 +10,8 @@ var _user$project$Block$main = {
 	main: _evancz$elm_graphics$Element$toHtml(
 		A3(
 			_evancz$elm_graphics$Collage$collage,
-			400,
-			400,
+			200,
+			200,
 			_elm_lang$core$Native_List.fromArray(
 				[
 					_user$project$Block$toForm(
