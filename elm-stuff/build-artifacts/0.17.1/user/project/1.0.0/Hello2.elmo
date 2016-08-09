@@ -1,0 +1,9 @@
+var _user$project$Hello2$view = A2(
+	_elm_lang$html$Html$h1,
+	_elm_lang$core$Native_List.fromArray(
+		[]),
+	_elm_lang$core$Native_List.fromArray(
+		[
+			_elm_lang$html$Html$text('Dank Memes2!')
+		]));
+var _user$project$Hello2$main = {main: _user$project$Hello2$view};
