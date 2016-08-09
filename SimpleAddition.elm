@@ -23,10 +23,8 @@ an additional argument. In the example below, we see that add2
 is equal to the function add bound with the first parameter as 2. In main,
 we see that we call add2 (which is just add 2 ?) and then tack on another
 argument. Pretty cool! -}
+add2 : Int -> Int
 add2 = add 2
-
-
-
 
 main =
     toHtml <| show (add2 3)
