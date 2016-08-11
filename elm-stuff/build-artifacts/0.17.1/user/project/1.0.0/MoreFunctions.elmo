@@ -1,0 +1,12 @@
+var _user$project$MoreFunctions$twenty = A2(
+	_elm_lang$core$Basics$max,
+	_elm_lang$core$Basics$sqrt(100),
+	4 * 5);
+var _user$project$MoreFunctions$eleven = A2(_elm_lang$core$Basics$max, 2, 11);
+var _user$project$MoreFunctions$four = _elm_lang$core$Basics$sqrt(16);
+var _user$project$MoreFunctions$main = {
+	main: _elm_lang$html$Html$text(
+		_elm_lang$core$Basics$toString(
+			_elm_lang$core$Native_List.fromArray(
+				[_user$project$MoreFunctions$four, _user$project$MoreFunctions$eleven, _user$project$MoreFunctions$twenty])))
+};
