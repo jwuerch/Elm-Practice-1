@@ -1,3 +1,0 @@
-var _user$project$UnionTypes$view = _evancz$elm_graphics$Element$toHtml(
-	_evancz$elm_graphics$Element$show('hi'));
-var _user$project$UnionTypes$main = {main: _user$project$UnionTypes$view};

@@ -1,4 +1,0 @@
-var _user$project$Hello$main = {
-	main: _evancz$elm_graphics$Element$toHtml(
-		_evancz$elm_graphics$Element$show(42))
-};

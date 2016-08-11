@@ -1,7 +1,0 @@
-var _user$project$MoreOnFunctionsTwo$view = _evancz$elm_graphics$Element$toHtml(
-	_evancz$elm_graphics$Element$show(
-		_elm_lang$core$Basics$toString(1)));
-var _user$project$MoreOnFunctionsTwo$main = {main: _user$project$MoreOnFunctionsTwo$view};
-var _user$project$MoreOnFunctionsTwo$convertStringToInt = function (a) {
-	return _elm_lang$core$Basics$toString(a);
-};
